@@ -15,6 +15,7 @@ using namespace std;
 //}
 Fractie::Fractie(float numarator, float numitor):numarator(numarator),numitor(numitor){}
 
+
 //Fractie::Fractie(const Fractie& other):numarator(other.numarator),numitor(other.numitor){}
 Fractie::Fractie(const Fractie& other){
     this->numarator = other.numarator;
@@ -100,3 +101,19 @@ int Fractie::cmmmdc(float nr1, float nr2){
         }
     return nr1;
 }
+
+void Fractie::reciproc() {
+    float temp = this->numarator;
+    this->numarator = this->numitor;
+    this->numitor = temp;
+    
+    if (this->numitor < 0) {
+        this->numarator *= -1;
+        this->numitor *= -1;
+    }
+}
+
+bool Fractie::egal(const Fractie& other) {
+    return (this->numarator / this->numitor) == (other.numarator / other.numitor);
+}
+

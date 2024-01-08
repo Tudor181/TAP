@@ -12,7 +12,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    
+
     Fractie *f2 = new Fractie(5);
     cout<<f2->getNumarator()<<" a\n";
     
@@ -47,6 +47,8 @@ int main(int argc, const char * argv[]) {
     fcopy.impartire(*(new Fractie(5,1)));
     fcopy.printFractie();
     
+    bool d = fcopy.egal(fcopy);
+    cout<<'d'<<d<<'\n';
     
     
     

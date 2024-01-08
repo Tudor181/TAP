@@ -32,8 +32,13 @@ public:
     void amplificare(float);
     
     void simplificare(float);
+
     
     static int cmmmdc(float, float);
+
+    void reciproc();
+    
+    bool egal(const Fractie&);
     
     
     void printFractie();
