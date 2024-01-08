@@ -33,7 +33,7 @@ Angajat& Angajat::operator=(const Angajat& other){
 
 std::ostream& operator<<(ostream& os, const Angajat& angajat) {
     os << typeid(angajat).name() << " nrOre: " << angajat.nrOre << ", tarifOrar: " << angajat.tarifOrar;
-    // Output other member variables if needed
+
     return os;
 }
 
