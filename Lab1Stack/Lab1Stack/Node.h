@@ -1,3 +1,9 @@
+//
+//  Node.h
+//  Lab1Stack
+//
+//  Created by Tudor Alin Cofariu on 7.11.2023.
+//
 #ifndef NODE_H
 #define NODE_H
 

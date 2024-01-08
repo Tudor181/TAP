@@ -1,3 +1,9 @@
+//
+//  Lista.cpp
+//  Lab1Stack
+//
+//  Created by Tudor Alin Cofariu on 7.11.2023.
+//
 #include <iostream>
 #include "List.h"
 using namespace std;

@@ -1,3 +1,9 @@
+//
+//  Lista.h
+//  Lab1Stack
+//
+//  Created by Tudor Alin Cofariu on 7.11.2023.
+//
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 #include "Node.h" 
