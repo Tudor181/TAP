@@ -10,6 +10,7 @@ protected:
 public:
     Point2D(double x, double y);
     Point2D(const Point2D& other);
+    
     ~Point2D();
 
 
