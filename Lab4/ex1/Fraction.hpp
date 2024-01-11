@@ -1,6 +1,6 @@
 #pragma once
-#ifndef FRACTION_H
-#define FRACTION_H
+#ifndef FRACTION_HPP
+#define FRACTION_HPP
 
 #include <iostream>
 
