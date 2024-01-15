@@ -1,0 +1,4 @@
+sa vedem
+text pe mai multe linii
+trebuie puse in chenar aceste linii
+deobicei se scrie pe mai multe linii
